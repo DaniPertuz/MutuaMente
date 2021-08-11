@@ -1,0 +1,42 @@
+.purple {
+    color: #6c5cdd;
+}
+
+.violet {
+    color: #ae5dde;
+}
+
+.clear-blue {
+    color: #5dc1de;
+}
+
+.bg-navbar {
+    background-color: #bbe6f2;
+}
+
+nav {
+    height: 5rem;
+}
+
+ul>li>a:hover {
+    transition: 300ms all ease;
+    color: #6c5cdd !important;
+    transform: scale(1.05);
+}
+
+.violet-button {
+    background-color: #ae5dde;
+    color: white;
+}
+
+.violet-button:hover{
+    transition: all 0.5s ease;
+    color: white;
+    transform: scale(1.05);
+}
+
+.card:hover {
+    transition: all 0.5s ease;
+    box-shadow: 0rem 0rem 0.5rem 0.2rem #bbe6f2;
+    transform: scale(1.05);
+}
