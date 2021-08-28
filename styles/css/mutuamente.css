@@ -1,0 +1,87 @@
+.purple {
+    color: #6c5cdd;
+}
+
+.violet {
+    color: #ae5dde;
+}
+
+.clear-blue {
+    color: #5dc1de;
+}
+
+.bg-navbar {
+    background-color: #bbe6f2;
+}
+
+nav {
+    height: 7rem;
+}
+
+ul>li>a:hover {
+    transition: 300ms all ease;
+    color: #6c5cdd !important;
+    transform: scale(1.05);
+}
+
+.violet-button {
+    background-color: #ae5dde;
+    color: white;
+}
+
+.violet-button:hover {
+    color: white;
+}
+
+.cardy:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0rem 0rem 0.5rem 0.2rem #bbe6f2;
+    transform: scale(1.01);
+}
+
+#headingObjective button, #headingPolicy button {
+    background-color: #ae5dde;
+    color: white;
+}
+
+#headingMission button, #headingValues button {
+    background-color: #6c5cdd;
+    color: white;
+}
+
+#headingHistory button, #headingVision button {
+    background-color: #5dc1de;
+    color: white;
+}
+
+.accordion>.accordion-item:first-of-type, #headingHistory button {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.accordion>.accordion-item:last-of-type, #headingValues button {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.accordion-button {
+    background-color: #5dc1de;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.fading {
+    animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
