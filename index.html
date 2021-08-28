@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./styles/mutuamente.css">
-    <link rel="icon" href="./styles/icons/logo.ico" type = "image/x-icon">
+    <link rel="stylesheet" href="./styles/css/mutuamente.css">
+    <link rel="icon" href="./styles/icons/logo.ico" type="image/x-icon">
     <title>MutuaMente</title>
 </head>
 
@@ -15,73 +15,152 @@
     <nav class="navbar sticky-top navbar-expand-lg bg-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="./styles/icons/logo.png" width="120" height="80" alt="Logo MutuaMente">
+                <img src="./styles/icons/logo.png" width="160" height="100" alt="Logo MutuaMente">
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link fs-5 fw-bold mx-2 text-uppercase text-decoration-none text-dark" href="#">Inicio</a>
+                    <a class="nav-link fs-5 fw-bold mx-2 text-uppercase text-decoration-none text-dark"
+                        href="./about.html">
+                        Nosotros
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5 fw-bold mx-2 text-uppercase text-decoration-none text-dark" href="#">Nosotros</a>
+                    <a class="nav-link fs-5 fw-bold mx-2 text-uppercase text-decoration-none text-dark" href="#">
+                        Servicios
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5 fw-bold mx-2 text-uppercase text-decoration-none text-dark" href="#">Servicios</a>
+                    <a class="nav-link fs-5 fw-bold mx-2 text-uppercase text-decoration-none text-dark" href="#">
+                        Profesionales
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5 fw-bold mx-2 text-uppercase text-decoration-none text-dark" href="#">Profesionales</a>
+                    <a class="nav-link fs-5 fw-bold mx-2 text-uppercase text-decoration-none text-dark" href="#">
+                        Proyectos
+                    </a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-2">
-                <li class="nav-item mx-2">
+            <ul class="navbar-nav ml-1 d-block">
+                <li class="nav-item m-2">
                     <a href="https://wa.link/6dydp3" target="_blank" class="fs-6 text-decoration-none text-dark">
-                        <img src="./styles/icons/telephone.svg" alt="Teléfono" />
+                        <img src="./styles/icons/whatsapp.svg" alt="WhatsApp" />
                         3042068776
                     </a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item m-2">
                     <a href="mailto:mutuamente22@gmail.com" class="fs-6 text-dark text-decoration-none">
+                        <img src="./styles/icons/envelope.svg" alt="Correo">
                         mutuamente22@gmail.com
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container mt-2">
+    <div class="container mt-3">
+        <div id="mainCarousel" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./images/1.png" class="d-block w-100" alt="carousel1">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./images/2.png" class="d-block w-100" alt="carousel2">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./images/3.png" class="d-block w-100" alt="carousel3">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./images/4.png" class="d-block w-100" alt="carousel4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container mt-3">
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card cardy">
                     <div class="card-body">
                         <h5 class="card-title">Agenda tu cita</h5>
-                        <p class="card-text">
+                        <p class="card-text mb-5 pb-3">
                             Pensamos en tu comodidad y en la agilidad de cada proceso. Por eso, desde cualquier lugar en
                             el que te encuentres, puedes programar tu cita con nuestras profesionales.
                         </p>
-                        <a href="#" class="btn violet-button">Agendar</a>
+                        <a href="#" class="btn violet-button mt-5">Agendar</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card cardy">
                     <div class="card-body">
                         <h5 class="card-title">Citas prioritarias</h5>
-                        <p class="card-text">
+                        <p class="card-text mb-5 pb-3">
                             Si consideras que requieres de nuestra ayuda de manera rápida, esto es para ti. Solicita tu
                             atención de manera inmediata, trataremos de atenderte lo más pronto posible.
                         </p>
-                        <a href="#" class="btn violet-button">Quiero una cita</a>
+                        <a href="#" class="btn violet-button mt-5">Quiero una cita</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card cardy">
                     <div class="card-body">
                         <h5 class="card-title">Asesorías</h5>
-                        <p class="card-text"></p>
+                        <p class="card-text">
+                            Si eres una organización, una institución educativa, un empleador o una persona natural que
+                            está interesado en cuidar la salud mental de las personas que tienes a cargo o a tu
+                            alrededor y no sabes cómo hacerlo, esta sección es para ti. Solicita una asesoría
+                            personalizada con nuestro equipo de profesionales y según tus necesidades te ayudaremos a
+                            cumplir tus objetivos.
+                        </p>
+                        <a href="#" class="btn violet-button">Quiero una asesoría</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="mt-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 offset-1">
+                    <a href="https://www.instagram.com/mutuamente22/" target="_blank"
+                        class="btn btn-outline-light border border-white fs-5 text-decoration-none text-dark">
+                        <img src="./styles/icons/instagram.svg" alt="Instagram" />
+                        @mutuamente22
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://wa.link/6dydp3" target="_blank"
+                        class="btn btn-outline-light border border-white fs-5 text-decoration-none text-dark">
+                        <img src="./styles/icons/whatsapp.svg" alt="Teléfono" />
+                        3042068776
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="mailto:mutuamente22@gmail.com"
+                        class="btn btn-outline-light border border-white fs-5 text-dark text-decoration-none">
+                        <img src="./styles/icons/envelope.svg" alt="Correo">
+                        mutuamente22@gmail.com
+                    </a>
+                </div>
+            </div>
+            <p id="mutuamente" class="p-5 fs-5">
+                &copy; MutuaMente
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="./js/mutuamente.js"></script>
 </body>
 
 </html>
