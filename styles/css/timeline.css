@@ -1,0 +1,70 @@
+.card-border {
+  border: 0.25rem solid #ae5dde;
+  border-radius: 15%;
+  margin: 0.5rem;
+}
+
+.timeline {
+  margin-top: 9rem;
+  margin-bottom: -10rem;
+}
+
+ul {
+  margin-top: 1.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+}
+
+li p {
+  opacity: 0;
+  transform: translateY(-10rem);
+  padding: 20px;
+  transition: 1.5s;
+  text-align: justify;
+  background: #FFFFFF;
+}
+
+.date {
+  transition: 1.5s;
+  position: absolute;
+  top: -180px;
+  left: 40%;
+}
+
+.timeline-point {
+  border: none;
+  position: absolute;
+  border-radius: 50%;
+  background: #6c5cdd;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: -45px;
+  left: 40%;
+  transition: 1.5s ease;
+}
+
+.timeline-line {
+  background: #5dc1de;
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 12px;
+  position: relative;
+}
+
+.timeline-innerline {
+  position: absolute;
+  background: #6c5cdd;
+  width: 0%;
+  height: 1rem;
+  top: 0%;
+  left: 0%;
+  transition: 1s linear;
+  border-radius: 999px;
+}
