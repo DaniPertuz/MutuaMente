@@ -18,7 +18,7 @@ nav {
     height: 7rem;
 }
 
-ul>li>a:hover {
+ul > li > a:hover {
     transition: 300ms all ease;
     color: #6c5cdd !important;
     transform: scale(1.05);
@@ -39,27 +39,32 @@ ul>li>a:hover {
     transform: scale(1.01);
 }
 
-#headingObjective button, #headingPolicy button {
+#headingObjective button,
+#headingPolicy button {
     background-color: #ae5dde;
     color: white;
 }
 
-#headingMission button, #headingValues button {
+#headingMission button,
+#headingValues button {
     background-color: #6c5cdd;
     color: white;
 }
 
-#headingHistory button, #headingVision button {
+#headingHistory button,
+#headingVision button {
     background-color: #5dc1de;
     color: white;
 }
 
-.accordion>.accordion-item:first-of-type, #headingHistory button {
+.accordion > .accordion-item:first-of-type,
+#headingHistory button {
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
 }
 
-.accordion>.accordion-item:last-of-type, #headingValues button {
+.accordion > .accordion-item:last-of-type,
+#headingValues button {
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
